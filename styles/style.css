@@ -143,6 +143,10 @@ div.preparation-time {
     border-bottom: 1px solid var(--stone-150-color);
   }
 
+  & tr td {
+    padding: 12px;
+  }
+
   /* & td:last-of-type {
     font-weight: bold;
   } */
