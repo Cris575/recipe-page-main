@@ -37,17 +37,13 @@ body {
   padding: 0;
 }
 
-.fonto-family-young-serif {
+h1,
+h2 {
   font-family: "young-serif";
 }
 
-.fonto-family-outfit {
-  font-family: "outfit";
-}
-
-.fonto-family-young-serif,
-.fonto-family-outfit {
-  font-weight: normal;
+main:not(h1):not(h2) {
+  font-family: "Outfit";
 }
 
 .fontWeinghtBold {
@@ -74,9 +70,7 @@ h2.preparation-title {
   color: var(--rose-color);
 }
 
-h2.ingredients-title,
-h2.instructions-title,
-h2.nutrition-title {
+h2:not(h2.preparation-title) {
   font-size: 28px;
   color: var(--brown-color);
 }
@@ -86,10 +80,9 @@ hr {
   background-color: var(--stone-150-color);
   height: 1px;
   border: none;
-}
-hr {
   margin: 32px 0;
 }
+
 article.container-main,
 img {
   border-radius: 24px;
@@ -111,9 +104,8 @@ img {
   width: 100%;
 }
 
+ul,
 p.description,
-div.preparation-time ul,
-ul.materials,
 p.nutrition-text,
 table td:first-of-type,
 .instructions ol {
@@ -174,9 +166,7 @@ ol.steps li {
     font-size: 32px;
   }
 
-  h2.ingredients-title,
-  h2.instructions-title,
-  h2.nutrition-title {
+  h2:not(h2.preparation-title) {
     font-size: 24px;
   }
 }
