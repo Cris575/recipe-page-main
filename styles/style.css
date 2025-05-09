@@ -104,7 +104,7 @@ img {
 ul,
 p.description,
 p.nutrition-text,
-table td:first-of-type,
+td:first-of-type,
 .instructions ol {
   color: var(--stone-color);
 }
